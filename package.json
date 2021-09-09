@@ -1,0 +1,29 @@
+{
+  "name": "create-mb",
+  "version": "0.0.1",
+  "description": "Creates a MBJS library using the command line",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "文竹",
+  "license": "ISC",
+  "bin": {
+    "create-mb": "index.js"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenzhu-eternal/create-mb.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.1.2",
+    "minimist": "^1.2.5",
+    "semver": "^7.3.5",
+    "shelljs": "^0.8.4"
+  }
+}
